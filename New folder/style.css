@@ -1,0 +1,257 @@
+style.html
+/* Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+/* Header */
+header {
+text-align: center;
+padding: 20px;
+background-color: #4a90e2;
+color: white;
+}
+.logo {
+width: 100px;
+margin-bottom: 10px;
+}
+header input[type="text"] {
+padding: 10px;
+margin-top: 10px;
+width: 80%;
+max-width: 400px;
+border: none;
+border-radius: 5px;
+}
+footer {
+text-align: center; /* Center-align the content */
+background-color: #007BFF; /* Blue background */
+color: white; /* White text color for contrast */
+padding: 20px; /* Space around the content */
+position: relative; /* Keep it at the bottom of the viewport */
+bottom: 0;
+width: 100%;
+box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+.footer-links a {
+color: white; /* White color for links */
+margin: 0 15px; /* Space between the links */
+text-decoration: none;
+}
+.footer-links a:hover {
+text-decoration: underline; /* Optional hover effect */
+}
+/* Categories */
+.categories {
+padding: 20px;
+background-color: #f0f0f0;
+text-align: center;
+}
+.category-grid button {
+padding: 10px 20px;
+margin: 5px;
+border: none;
+border-radius: 5px;
+background-color: #b0c4de;
+color: white;
+cursor: pointer;
+}
+/* Popular Books */
+.popular-books {
+padding: 20px;
+text-align: center;
+}
+.book-grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.book-card {
+padding: 15px;
+margin: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 150px;
+background-color: #fff;
+}
+.book-card button {
+margin-top: 10px;
+padding: 10px;
+border: none;
+border-radius: 5px;
+background-color: #4a90e2;
+color: white;
+cursor: pointer;
+}
+.about-us {
+text-align: center;
+margin: 40px auto;
+padding: 20px;
+max-width: 900px;
+color: #333;
+background-color: #f0f8ff;
+border-radius: 8px;
+box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+.about-us h2 {
+color: #007BFF;
+margin-bottom: 20px;
+}
+.about-us h3 {
+color: #0056b3;
+margin-top: 20px;
+}
+.about-us p {
+line-height: 1.6;
+margin: 10px 0;
+}
+.about-us ul {
+text-align: left;
+margin: 20px auto;
+max-width: 600px;
+list-style-type: none;
+}
+.about-us ul li {
+margin: 10px 0;
+}
+.about-us a {
+color: #007BFF;
+text-decoration: none;
+}
+.about-us a:hover {
+text-decoration: underline;
+}
+/* Reading Interface */
+.reading-interface {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.8);
+color: white;
+padding: 20px;
+overflow: auto;
+}
+.reading-interface .book-content {
+background-color: #fff;
+color: #333;
+padding: 20px;
+border-radius: 5px;
+max-width: 600px;
+margin: 20px auto;
+text-align: left;
+}
+.contact-us {
+text-align: center;
+padding: 40px;
+background-color: #f9f9f9;
+border-radius: 8px;
+margin: 40px auto;
+max-width: 800px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-us h2 {
+color: #007BFF;
+margin-bottom: 20px;
+}
+.contact-options {
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.contact-method {
+margin: 20px 0;
+}
+.contact-method h3 {
+color: #0056b3;
+}
+.social-links img {
+width: 30px;
+margin: 0 10px;
+}
+.contact-form input, .contact-form textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+.contact-form button {
+background-color: #007BFF;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.contact-form button:hover {
+background-color: #0056b3;
+}
+.privacy-policy {
+text-align: left;
+margin: 40px auto;
+padding: 20px;
+max-width: 900px;
+background-color: #f9f9f9;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.privacy-policy h2 {
+color: #007BFF;
+text-align: center;
+}
+.privacy-policy h3 {
+color: #0056b3;
+margin-top: 20px;
+}
+.privacy-policy p {
+line-height: 1.6;
+margin: 10px 0;
+}
+.privacy-policy ul {
+margin: 10px 0;
+padding-left: 20px;
+list-style-type: disc;
+}
+.privacy-policy a {
+color: #007BFF;
+text-decoration: none;
+}
+.privacy-policy a:hover {
+text-decoration: underline;
+}
+.terms-of-service {
+margin: 40px auto;
+padding: 20px;
+max-width: 900px;
+background-color: #f9f9f9;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.terms-of-service h2 {
+color: #007BFF;
+text-align: center;
+}
+.terms-of-service h3 {
+color: #0056b3;
+margin-top: 20px;
+}
+.terms-of-service p {
+line-height: 1.6;
+margin: 10px 0;
+}
+.terms-of-service ul {
+margin: 10px 0;
+padding-left: 20px;
+list-style-type: disc;
+}
+
+.main{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}

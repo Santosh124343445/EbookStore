@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReadEase - Reading Made Easy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header Section -->
+<header>
+    <img src="img\1.png" alt="ReadEase Logo" class="logo">
+<h1>Welcome to ReadEase</h1>
+<p>Reading Made Easy and Free!</p>
+<input type="text" placeholder="Search for books...">
+<div class="account-header">
+<img src="assets/account-icon.png" alt="Account Icon" class="account-icon"
+onclick="toggleAccountMenu()">
+<div class="account-menu" id="accountMenu">
+<p><strong>Welcome, User!</strong></p>
+<button id="btn" ref="AccountSetting.html" onclick="openSettings()">Account Settings</button>
+<button onclick="viewHistory()">Reading History</button>
+<button onclick="logout()">Log Out</button>
+</div>
+</div>
+</header>
+<!-- Categories Section -->
+<section class="categories">
+<h2>Browse Categories</h2>
+<div class="category-grid">
+<a href="Categories/fiction.html" target="_blank"><button>Fiction</button></a>
+<a href="Categories/non-fiction.html" target="_blank"><button>Non-fiction</button></a>
+<a href="Categories/Science.html" target="_blank"><button>Science</button></a>
+<a href="Categories/Mystery.html" target="_blank"><button>Mystery</button></a>
+<a href="Categories/Romance.html" target="_blank"><button>Romance</button></a>
+<a href="Categories/History.html" target="_blank"><button>History</button></a>
+<a href="Categories/Biography.html" target="_blank"><button>Biography</button></a>
+<a href="Categories/Fantasy.html" target="_blank"><button>Fantasy</button></a>
+<!-- Add more categories as needed -->
+</div>
+</section>
+<!-- Popular Books Section -->
+<section class="popular-books">
+<h2>Popular & Recommended Books</h2>
+<div class="book-grid">
+<div class="book-card">
+<h3>Book Title 1</h3>
+<p>Author Name 1</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+</div>
+</section>
+<section class="popular-books">
+<h2>Best of all Time</h2>
+<div class="book-grid">
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 2</h3>
+<p>Author Name 2</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<div class="book-card">
+<h3>Book Title 3</h3>
+<p>Author Name 3</p>
+<button onclick="startReading()">Read Now</button>
+</div>
+<!-- Add more books as needed -->
+</div>
+</section>
+<!-- Footer Section -->
+<footer class="footers">
+<div class="footer-links">
+<a href="/sub1/About Us.html" target="_blank">About Us</a>
+<a href="sub1/Contact Us.html" target="_blank">Contact Us</a>
+<a href="sub1/Privacy Policy.html" target="_blank">Privacy Policy</a>
+<a href="sub1/Terms of Service.html" target="_blank">Terms of Service</a>
+</div>
+<p>© 2023 ReadEase. All rights reserved.</p>
+</footer >
+<!-- Reading Interface -->
+<div class="reading-interface" id="readingInterface">
+<button onclick="closeReading()">Close</button>
+<div class="book-content">
+<p>Start reading your selected book here...</p>
+</div>
+</div>
+<!-- JavaScript -->
+<script src="script.js"></script>
+<script>
+function toggleAccountMenu() {
+const menu = document.getElementById('accountMenu');
+menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+}
+</script>
+</body>
+</html>
